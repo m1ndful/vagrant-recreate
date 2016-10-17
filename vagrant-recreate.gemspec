@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andrey Semenchenko"]
   spec.email         = ["m1ndful@protonmail.com"]
   spec.summary       = %q{vagrant plugin that helps re-create environment.}
-  spec.description   = %q{This plugin automates vagrant environment re-createion by invoking up and destroy commands sequentially.}
+  spec.description   = %q{This plugin automates vagrant environment re-creation by invoking up and destroy commands sequentially.}
   spec.homepage      = "https://github.com/m1ndful"
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
